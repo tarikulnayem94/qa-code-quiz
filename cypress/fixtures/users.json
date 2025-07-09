@@ -1,0 +1,34 @@
+{
+  "validUsers": [
+    {
+      "username": "SomeUser_name",
+      "password": "TopSecret1234!",
+      "name": "SomeName",
+      "favouriteFruit": "some fruit",
+      "favouriteMovie": "The Room",
+      "favouriteNumber": "BN<1234>"
+    },
+    {
+      "username": "dummytree",
+      "password": "test1",
+      "name": "dummytree",
+      "favouriteFruit": "Mango",
+      "favouriteMovie": "V for Vendetta",
+      "favouriteNumber": "The last prime number"
+    }
+  ],
+  "invalidUsers": [
+    {
+      "username": "nonexistent",
+      "password": "wrongpass"
+    },
+    {
+      "username": "SomeUser_name",
+      "password": "wrongpassword"
+    },
+    {
+      "username": "",
+      "password": ""
+    }
+  ]
+}
